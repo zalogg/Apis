@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APIS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="cuadrado cuadrado1">
+            <h2>API SIMPSONS</h2>
+            <div class="imagen-y-boton">
+                <img src="https://www.lavanguardia.com/files/image_449_220/uploads/2019/12/16/5f15efa4aeb68.jpeg"
+                    alt="Logo Simpsons" class="imagen-circular" title="Logotipo de Los Simpsons">
+                <button class="boton" id="botonIr">Ir</button>
+            </div>
+        </div>
+        <div class="cuadrado cuadrado2">
+            <h2>API POKEMON</h2>
+            <img src="https://media.a24.com/p/60806aecca07f9f60ad73ffc9b86e0e3/adjuntos/296/imagenes/008/766/0008766338/1200x675/smart/pokemon-netjpg.jpg"
+            alt="Logo Simpsons" class="imagen-circular" title="Logotipo de pokemon">
+        <button class="boton" id="botonIr2">Ir</button>
+        </div>
+        <div class="cuadrado cuadrado3">
+            <h2>API CLIMA</h2>
+            <img src="https://i.pinimg.com/474x/1e/cb/b6/1ecbb69baa99fda703690a75dca64012.jpg"
+            alt="Logo Simpsons" class="imagen-circular" title="Logotipo de pokemon">
+        <button class="boton" id="botonIr3">Ir</button>
+        </div>
+        <div class="cuadrado cuadrado4">
+            <h2>API PELICULA</h2>
+            <div class="imagen-y-boton">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfQeZOSQV0cES6pkw41scgqNA87uhLLtVIn4w-YBOOSA&s"
+                    alt="Logo Simpsons" class="imagen-circular" title="Logotipo de Los Simpsons">
+                <button class="boton" id="botonIr4">Ir</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const botonIr = document.getElementById('botonIr');
+        botonIr.addEventListener('click', () => {
+            window.location.href = '../simpson/index.html';
+        });
+    </script>
+
+    
+<script>
+    const botonIr2 = document.getElementById('botonIr2');
+    botonIr2.addEventListener('click', () => {
+        window.location.href = '../pokemon/index.html';
+    });
+</script>
+
+<script>
+    const botonIr3 = document.getElementById('botonIr3');
+    botonIr3.addEventListener('click', () => {
+        window.location.href = '../clima/index.html';
+    });
+</script>
+<script>
+    const botonIr4 = document.getElementById('botonIr4');
+    botonIr4.addEventListener('click', () => {
+        window.location.href = '../movie/index.html';
+    });
+</script>
+</body>
+
+</html>

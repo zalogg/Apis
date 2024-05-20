@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Client</title>
+    <link rel="stylesheet" href="Simpsonstyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="section">
+            <h2>SIMPSONS</h2>
+            <button onclick="fetchQuote()">Generar Personaje</button>
+            <button class="boton" id="botonIr" style="background-color:red">Salir</button>
+            <div id="quote"></div>
+        </div>
+    </div>
+    <script src="simpson.js"></script>
+    <script>
+        const botonIr = document.getElementById('botonIr');
+        botonIr.addEventListener('click', () => {
+            window.location.href = '../menu/index.html';
+
+        });
+    </script>
+</body>
+</html>

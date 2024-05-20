@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StylesMovie.css">
+    <title>Popular Movies</title>
+</head>
+
+<body>
+    <h1>Popular Movies</h1>
+    <button class="button" id="botonIr">Salir</button>
+    <div id="movies-list"></div>
+
+    <script src="movie.js"></script>
+    <script>
+        const botonIr = document.getElementById('botonIr');
+        botonIr.addEventListener('click', () => {
+            window.location.href = '../menu/index.html';
+        });
+    </script>
+</body>
+
+</html>
